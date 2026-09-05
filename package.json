@@ -1,0 +1,32 @@
+{
+  "name": "jarvis-weather-dashboard",
+  "version": "1.0.0",
+  "description": "A modern weather dashboard that fetches data from OpenWeatherMap API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "keywords": [
+    "weather",
+    "dashboard",
+    "api",
+    "openweathermap"
+  ],
+  "author": "hartleynick90-prog",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "jest": "^29.7.0"
+  }
+}
